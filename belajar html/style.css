@@ -4,6 +4,10 @@ html {
     padding: 0;
 }
 
+.container {
+  
+}
+
 .container-navbar {
     background-color: pink;
     width: 100%;
@@ -31,9 +35,22 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .img-content {
     width: 20%;
     height: 50%;
+}
+
+.container-footer{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.h1-footer{
+    font-size: large;
 }
