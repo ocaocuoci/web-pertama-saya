@@ -1,7 +1,39 @@
-body {
-    background-color: palevioletred;
+*,
+html {
+    margin: 0;
+    padding: 0;
 }
 
 .container-navbar {
     background-color: pink;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    border: 1px solid white;
+    background-color: pink;
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+}
+
+.container-content{
+    background-color: papayawhip;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-content {
+    width: 20%;
+    height: 50%;
 }
