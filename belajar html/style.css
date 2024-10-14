@@ -4,9 +4,7 @@ html {
     padding: 0;
 }
 
-.container {
-  
-}
+.container {}
 
 .container-navbar {
     background-color: pink;
@@ -22,12 +20,11 @@ html {
 }
 
 .li-navbar {
-    border: 1px solid white;
-    background-color: pink;
     list-style-type: none;
     padding: 20px;
     margin: 5px;
     color: white;
+    font-size: 30px;
 }
 
 .container-content{
